@@ -1,29 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV: Iván Maciel</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container mx-auto">
-        <div class="image-container flex p-9">
-            <img class="aspect-square rounded-xl" src="img/profile.jpg" alt="Foto CV">
-        </div>
-        <div class="title-container flex flex-wrap p-9">
-            <h1 class="text-center w-full text-2xl uppercase">Iván Maciel</h1>
-            <h2 class="text-center w-full text-sm italic">Técnico en Informática Personal y Profesional</h2>
+    <div class="container mx-auto bg-emerald-100 dark:bg-cyan-900">
+        <div class="image-container p-5 flex bg-emerald-200">
+            <img class="aspect-square w-2/5 h-auto rounded-xl" src="img/profile.jpg" alt="Foto CV">
+            <div class="title-container flex flex-wrap">
+                <h1 class="w-full mt-auto mb-0 text-center text-2xl text-cyan-900 font-normal uppercase">Iván Maciel</h1>
+                <h2 class="w-full mt-0 mb-auto text-center text-sm text-cyan-900 italic">Técnico en Informática Personal y Profesional</h2>
+            </div>
         </div>
         <div class="cv-section">
             <h1>Información Personal</h1>
+            <ul>
+                <li>Fecha de nacimiento: 31/05/2002.</li>
+                <li>Residencia: Bahía Blanca, Buenos Aires.</li>
+            </ul>
         </div>
-        <div class="cv-section"></div>
-        <div class="cv-section"></div>
-        <div class="cv-section"></div>
-        <div class="cv-section"></div>
+        <hr class="section-divider">
+        <div class="cv-section">
+            <h1>Contacto</h1>
+            <ul>
+                <li>Celular: (291) 412-1788</li>
+                <li>Email: ivanemanuelmaciel@gmail.com</li>
+            </ul>
+        </div>
+        <hr class="section-divider">
+        <div class="cv-section">
+            <h1>Habilidades y capacidades</h1>
+            <ul class="dashed">
+                <li>Diseño de interfaces gráficas.</li>
+                <li>Resolución de problemas.</li>
+                <li>Conocimientos en tecnologías web (HTML, CSS, JavaScript).</li>
+                <li>Programación back-end en Vanilla PHP.</li>
+                <li>Programación orientada a objetos y de interfaces gráficas en Java.</li>
+                <li>Fundamentos del lenguaje de programación Python.</li>
+            </ul>
+        </div>
+        <hr class="section-divider">
+        <div class="cv-section">
+            <h1>Idiomas</h1>
+            <h2>Instituto de inglés Nottingham</h2>
+            <p>5th Seniors - 2019</p>
+        </div>
+        <hr class="section-divider">
+        <div class="cv-section">
+            <h1>Experiencia profesional</h1>
+            <h2>Desarrollador FullStack</h2>
+            <h3>Pasantías Profesionalizantes en Ferretería Saavedra</h3>
+            <p>Desarrollo de web comercial y tienda online:</p>
+            <ul>
+                <li>Diseño de interfaz y experiencia de usuario.</li>
+                <li>Implementación back-end de tienda online.</li>
+            </ul>
+            <h3>Pasantías profesionalizantes en Paula Schwerdt Inmobiliaria</h3>
+            <p>Desarrollo de sitio web de muestra y gestión de inmuebles.</p>
+            <ul>
+                <li>Diseño de interfaz y experiencia de usuario.</li>
+                <li>Implementación back-end de un sistema de publicación y gestión de inmuebles.</li>
+            </ul>
+        </div>
+        <hr class="section-divider">
+        <div class="cv-section">
+            <h1>Formación académica</h1>
+            <h2>Universidad Nacional del Sur</h2>
+            <p>Ingeniería en Sistemas de la Información. Desde 2021.</p>
+            <h2>Instituto Técnico "La Piedad"</h2>
+            <p>
+                Educación Técnica Superior - Técnico en Informática Personal y Profesional
+                <br>
+                2017-2020
+            </p>
+            <ul>
+                <li>Desarrollo de proyectos varios orientados a informática (videojuegos, interfaces web, sistemas automatizados, entre otros.</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>

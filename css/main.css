@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Work Sans', sans-serif;
+    @apply text-cyan-900;
+  }
+}
+
+@layer utilities {
+  .cv-section {
+    @apply p-5;
+  }
+
+  .cv-section h1 {
+    @apply bg-cyan-900 p-1 text-emerald-50 uppercase font-light;
+  }
+
+  .cv-section h2 {
+    @apply font-semibold;
+  }
+
+  .cv-section h3 {
+    @apply italic font-medium;
+  }
+
+  ul {
+    @apply list-none pl-2;
+  }
+
+  .dashed li {
+    @apply pl-2 relative before:content-['-'] before:absolute before:block before:-left-1;
+  }
+
+  .section-divider {
+    @apply border-t-2 border-cyan-700 mx-3;
+  }
+}
