@@ -5,7 +5,7 @@
 @layer base {
   body {
     font-family: 'Work Sans', sans-serif;
-    @apply text-cyan-900;
+    @apply text-slate-900;
   }
 }
 
@@ -15,11 +15,11 @@
   }
 
   .cv-section h1 {
-    @apply bg-cyan-900 p-1 text-emerald-50 uppercase font-light;
+    @apply bg-slate-800 p-1 text-xl text-emerald-50 uppercase font-light;
   }
 
   .cv-section h2 {
-    @apply font-semibold;
+    @apply font-semibold text-lg;
   }
 
   .cv-section h3 {
@@ -35,6 +35,6 @@
   }
 
   .section-divider {
-    @apply border-t-2 border-cyan-700 mx-3;
+    @apply border-t-2 border-slate-700 mx-3;
   }
 }

@@ -422,7 +422,7 @@ video {
 body {
   font-family: 'Work Sans', sans-serif;
   --tw-text-opacity: 1;
-  color: rgb(22 78 99 / var(--tw-text-opacity));
+  color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -642,9 +642,9 @@ body {
   font-style: italic;
 }
 
-.text-cyan-900 {
+.text-slate-900 {
   --tw-text-opacity: 1;
-  color: rgb(22 78 99 / var(--tw-text-opacity));
+  color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
 .cv-section {
@@ -653,8 +653,10 @@ body {
 
 .cv-section h1 {
   --tw-bg-opacity: 1;
-  background-color: rgb(22 78 99 / var(--tw-bg-opacity));
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
   padding: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 300;
   text-transform: uppercase;
   --tw-text-opacity: 1;
@@ -662,6 +664,8 @@ body {
 }
 
 .cv-section h2 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-weight: 600;
 }
 
@@ -693,10 +697,10 @@ ul {
   margin-right: 0.75rem;
   border-top-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(14 116 144 / var(--tw-border-opacity));
+  border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }
 
-.dark .dark\:bg-cyan-900 {
+.dark .dark\:bg-slate-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(22 78 99 / var(--tw-bg-opacity));
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
