@@ -15,7 +15,7 @@
   }
 
   .cv-section h1 {
-    @apply bg-slate-800 p-1 text-xl text-emerald-50 uppercase font-light;
+    @apply bg-slate-800 p-1 text-xl text-emerald-50 uppercase font-light mb-2;
   }
 
   .cv-section h2 {
@@ -26,11 +26,15 @@
     @apply italic font-medium;
   }
 
-  ul {
-    @apply list-none pl-2;
+  .cv-section * {
+    @apply pl-2;
   }
 
-  .dashed li {
+  .cv-section ul li {
+    @apply pl-0;
+  }
+
+  .cv-section .dashed li {
     @apply pl-2 relative before:content-['-'] before:absolute before:block before:-left-1;
   }
 

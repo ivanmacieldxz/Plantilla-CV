@@ -9,80 +9,90 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/f72301db62.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container mx-auto bg-emerald-100 dark:bg-slate-900">
-        <div class="image-container p-5 flex bg-emerald-200">
-            <img class="aspect-square w-2/5 h-auto rounded-xl" src="img/profile.jpg" alt="Foto CV">
-            <div class="title-container flex flex-wrap text-slate-900">
-                <h1 class="w-full mt-auto mb-0 text-center text-2xl font-normal uppercase">Iván Maciel</h1>
-                <h2 class="w-full mt-0 mb-auto text-center text-sm italic">Técnico en Informática Personal y Profesional</h2>
+    <div class="container mx-auto bg-emerald-100 md:flex dark:bg-slate-900 flex-wrap">
+        <div class="image-container p-5 flex bg-emerald-200 w-full">
+            <img class="aspect-square w-2/5 h-auto rounded-xl md:w-1/5" src="img/profile.jpg" alt="Foto CV">
+            <div class="title-container flex flex-wrap text-slate-900 w-full">
+                <h1 class="w-full mt-auto mb-0 text-center text-2xl font-normal uppercase md:text-3xl">Iván Maciel</h1>
+                <h2 class="w-full mt-0 mb-auto text-center text-sm italic md:text-xl">Técnico en Informática Personal y Profesional</h2>
             </div>
         </div>
-        <div class="cv-section">
-            <h1>Información Personal</h1>
-            <ul>
-                <li>Fecha de nacimiento: 31/05/2002.</li>
-                <li>Residencia: Bahía Blanca, Buenos Aires.</li>
-            </ul>
+        <div class="left-column md:w-2/5">
+            <div class="cv-section">
+                <h1>Información Personal</h1>
+                <ul>
+                    <li>Fecha de nacimiento: 31/05/2002.</li>
+                    <li>Residencia: Bahía Blanca, Buenos Aires.</li>
+                </ul>
+            </div>
+            <hr class="section-divider">
+            <div class="cv-section">
+                <h1>Contacto</h1>
+                <ul>
+                    <li>Celular: (291) 412-1788</li>
+                    <li>Email: ivanemanuelmaciel@gmail.com</li>
+                </ul>
+            </div>
+            <hr class="section-divider">
+            <div class="cv-section">
+                <h1>Habilidades y capacidades</h1>
+                <ul class="dashed">
+                    <li>Diseño de interfaces gráficas.</li>
+                    <li>Resolución de problemas.</li>
+                    <li>Conocimientos en tecnologías web (HTML, CSS, JavaScript).</li>
+                    <li>Programación back-end en Vanilla PHP.</li>
+                    <li>Programación orientada a objetos y de interfaces gráficas en Java.</li>
+                    <li>Fundamentos del lenguaje de programación Python.</li>
+                </ul>
+            </div>
+            <hr class="section-divider">
+            <div class="cv-section">
+                <h1>Idiomas</h1>
+                <h2>Instituto de inglés Nottingham</h2>
+                <p>5th Seniors - 2019</p>
+            </div>
+            <hr class="section-divider md:hidden">
         </div>
-        <hr class="section-divider">
-        <div class="cv-section">
-            <h1>Contacto</h1>
-            <ul>
-                <li>Celular: (291) 412-1788</li>
-                <li>Email: ivanemanuelmaciel@gmail.com</li>
-            </ul>
-        </div>
-        <hr class="section-divider">
-        <div class="cv-section">
-            <h1>Habilidades y capacidades</h1>
-            <ul class="dashed">
-                <li>Diseño de interfaces gráficas.</li>
-                <li>Resolución de problemas.</li>
-                <li>Conocimientos en tecnologías web (HTML, CSS, JavaScript).</li>
-                <li>Programación back-end en Vanilla PHP.</li>
-                <li>Programación orientada a objetos y de interfaces gráficas en Java.</li>
-                <li>Fundamentos del lenguaje de programación Python.</li>
-            </ul>
-        </div>
-        <hr class="section-divider">
-        <div class="cv-section">
-            <h1>Idiomas</h1>
-            <h2>Instituto de inglés Nottingham</h2>
-            <p>5th Seniors - 2019</p>
-        </div>
-        <hr class="section-divider">
-        <div class="cv-section">
-            <h1>Experiencia profesional</h1>
-            <h2>Desarrollador FullStack</h2>
-            <h3>Pasantías Profesionalizantes en Ferretería Saavedra</h3>
-            <p>Desarrollo de web comercial y tienda online:</p>
-            <ul>
-                <li>Diseño de interfaz y experiencia de usuario.</li>
-                <li>Implementación back-end de tienda online.</li>
-            </ul>
-            <h3>Pasantías profesionalizantes en Paula Schwerdt Inmobiliaria</h3>
-            <p>Desarrollo de sitio web de muestra y gestión de inmuebles.</p>
-            <ul>
-                <li>Diseño de interfaz y experiencia de usuario.</li>
-                <li>Implementación back-end de un sistema de publicación y gestión de inmuebles.</li>
-            </ul>
-        </div>
-        <hr class="section-divider">
-        <div class="cv-section">
-            <h1>Formación académica</h1>
-            <h2>Universidad Nacional del Sur</h2>
-            <p>Ingeniería en Sistemas de la Información. Desde 2021.</p>
-            <h2>Instituto Técnico "La Piedad"</h2>
-            <p>
-                Educación Técnica Superior - Técnico en Informática Personal y Profesional
-                <br>
-                2017-2020
-            </p>
-            <ul>
-                <li>Desarrollo de proyectos varios orientados a informática (videojuegos, interfaces web, sistemas automatizados, entre otros.</li>
-            </ul>
+        <div class="right-column md:w-3/5">
+            <div class="cv-section">
+                <h1>Experiencia profesional</h1>
+                <h2>Desarrollador FullStack</h2>
+                <h3>Pasantías Profesionalizantes en Ferretería Saavedra</h3>
+                <p>Desarrollo de web comercial y tienda online:</p>
+                <ul>
+                    <li>Diseño de interfaz y experiencia de usuario.</li>
+                    <li>Implementación back-end de tienda online.</li>
+                </ul>
+                <h3>Pasantías profesionalizantes en Paula Schwerdt Inmobiliaria</h3>
+                <p>Desarrollo de sitio web de muestra y gestión de inmuebles.</p>
+                <ul>
+                    <li>Diseño de interfaz y experiencia de usuario.</li>
+                    <li>Implementación back-end de un sistema de publicación y gestión de inmuebles.</li>
+                </ul>
+            </div>
+            <hr class="section-divider">
+            <div class="cv-section">
+                <h1>Formación académica</h1>
+                <h2>Universidad Nacional del Sur</h2>
+                <p>Ingeniería en Sistemas de la Información. Desde 2021.</p>
+                <h2>Instituto Técnico "La Piedad"</h2>
+                <p>
+                    Educación Técnica Superior - Técnico en Informática Personal y Profesional
+                    <br>
+                    2017-2020
+                </p>
+                <ul>
+                    <li>Desarrollo de proyectos varios orientados a informática (videojuegos, interfaces web, sistemas automatizados, entre otros.</li>
+                </ul>
+            </div>
+            <div class="flex justify-around items-center bg-slate-400 m-5">
+                <a href="tel:+542914121788" class="contact"><i class="fa-solid fa-phone"></i></a>
+                <a href="" class="contact"><i class="fa-solid fa-envelope"></i></a>
+                <a href="" class="contact"><i class="fa-brands fa-github"></i></a>
+            </div>
         </div>
     </div>
 </body>
