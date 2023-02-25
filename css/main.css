@@ -45,4 +45,9 @@
   .contact {
     @apply flex w-7 h-7 box-content items-center justify-center ease-in duration-300 transition-all rounded-full p-3 sm:hover:bg-emerald-200;
   }
+
+  .darkmode-icon {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
 }
